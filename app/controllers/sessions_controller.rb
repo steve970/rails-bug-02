@@ -21,5 +21,4 @@ class SessionsController < ApplicationController
     session.destroy
     redirect_to signin_path
   end
-
 end
